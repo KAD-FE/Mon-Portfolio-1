@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9; /* Couleur de fond douce */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #614caf; /* Couleur d'en-tête */
+    color: white;
+    padding: 20px;
+    text-align: center; /* Centrer le texte de l'en-tête */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 0; /* Enlève le remplissage par défaut */
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s; /* Transition pour couleur */
+}
+
+nav a:hover {
+    color: #ffc107; /* Couleur au survol */
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px; /* Limiter la largeur */
+    margin: auto; /* Centrer le contenu */
+}
+
+section {
+    background-color: white; /* Arrière-plan blanc pour les sections */
+    margin: 20px 0; /* Marge entre les sections */
+    padding: 20px; /* Espace intérieur */
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Ombre */
+}
+
+.centered-title {
+    text-align: center; /* Centre le texte pour les titres */
+    margin-bottom: 20px;
+    color: #614caf; /* Couleur du titre */
+}
+
+.cv-download {
+    background-color: #e0e7ff; /* Couleur de fond */
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: left;
+    margin-top: 20px;
+    width: 13%;
+    max-width: 400px;
+}
+
+.cv-download a {
+    text-decoration: none; /* Enlève le soulignement */
+    color: inherit; /* Prend la couleur du parent */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #614caf; /* Couleur de fond identique à l'en-tête */
+    color: white;
+}
+
+/* Styles pour le formulaire */
+.centered-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centre le contenu horizontalement */
+    justify-content: center; /* Centre le contenu verticalement, si nécessaire */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; /* S'assure que les champs de formulaire s'étendent sur toute la largeur */
+    width: 100%;
+    max-width: 400px; /* Limite la largeur du formulaire */
+    margin: auto; /* Centre le formulaire horizontalement */
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #7b7982; /* Couleur du bouton */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transition pour couleur */
+}
+
+button:hover {
+    background-color: #ffc107; /* Couleur au survol */
+}
